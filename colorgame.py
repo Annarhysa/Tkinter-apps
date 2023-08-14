@@ -3,7 +3,7 @@ import tkinter
 import random
 
 # list of possible colour.
-colours = ['Red','Blue','Green','Pink','Black','Yellow','Orange','White','Purple','Brown','Magenta']
+colours = ['Red','Blue','Green','Pink','Black','Orange','White','Purple','Brown']
 score = 0
 
 # the game time left, initially 30 seconds.
@@ -90,7 +90,7 @@ instructions.pack()
 
 #list of colors
 
-list_colors = tkinter.Label(root, text = "'Red','Blue','Green','Pink','Black','Yellow','Orange','White','Purple','Brown','Magenta'",
+list_colors = tkinter.Label(root, text = "'Red','Blue','Green','Pink','Black','Orange','White','Purple','Brown'",
 		     font = ('Helvetica', 10))
 
 list_colors.pack()
