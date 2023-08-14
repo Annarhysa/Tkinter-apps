@@ -81,13 +81,19 @@ root = tkinter.Tk()
 root.title("Color Blind")
 
 # set the size
-root.geometry("400x200")
+root.geometry("500x300")
 
 # add an instructions label
 instructions = tkinter.Label(root, text = "Type in the colour of the words, and not the word text!",
 									font = ('Helvetica', 12))
 instructions.pack()
 
+#list of colors
+
+list_colors = tkinter.Label(root, text = "'Red','Blue','Green','Pink','Black','Yellow','Orange','White','Purple','Brown','Magenta'",
+		     font = ('Helvetica', 10))
+
+list_colors.pack()
 # add a score label
 scoreLabel = tkinter.Label(root, text = "Press enter to start",
 									font = ('Helvetica', 12))
